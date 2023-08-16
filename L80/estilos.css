@@ -363,7 +363,6 @@ padding: 6px;
   margin: 40px 0;    
 }
 
-
   
 .noticias img,
 .bolos.activa img {
@@ -373,7 +372,6 @@ padding: 6px;
   /* Añado un borde blanco a las imagenes */
   border: 1px solid white;
 }
-
 
 .noticias h3,
 .bolos.activa h3 {
@@ -410,7 +408,9 @@ padding: 6px;
 }
 
 /* ajusto leer mas. Tendré que ir modificandolo cuando cambie las noticias */
-.noticia1 a,
+.noticia1 a {
+  padding-top: 5px
+}
 .noticia2 a {
   padding-top: 22px;
 }
@@ -495,7 +495,7 @@ padding: 6px;
 @media (max-width: 700px) {
     
   /* Pongo un color de fondo del body. Despues de realizar el diseño responsive lo dejare comentado */
-  body{background:red;} 
+  /* body{background:red;}  */
 
   /* BOTON RESPONSIVE */
   .menu-btn {
@@ -595,8 +595,7 @@ padding: 6px;
     align-items: center;
     gap: 10px;
     padding: 10px;
-    font-size: 0.8rem;
-    
+    font-size: 0.8rem;    
   } 
 
   /* NOTICIAS RESPONSIVE */
@@ -606,9 +605,8 @@ padding: 6px;
   }
 
   /* ajusto leer mas. Tendré que ir modificandolo cuando cambie las noticias */
-.noticia1 a,
-.noticia3 a {
-  padding-top: 33px;
+.noticia1 a {
+  padding-top: 23px;
 }
 
   /* GALERIA RESPONSIVE */
@@ -641,7 +639,7 @@ padding: 6px;
 @media (max-width: 500px) {
 
   /* Pongo un color de fondo del body. Despues de realizar el diseño responsive lo dejare comentado */
-  body{background:green;}
+  /* body{background:green;} */
 
   /* NAVEGACIÓN RESPONSIVE */
   .nav-main {

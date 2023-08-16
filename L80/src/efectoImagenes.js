@@ -11,7 +11,7 @@ ScrollReveal().reveal('.cards-banner-one.activa', { delay: 800 });
 ScrollReveal().reveal('.bolos.activa', { delay: 800 });
 
 ScrollReveal().reveal('.cards-banner-two', { delay: 800 });
-ScrollReveal().reveal('.noticias', { delay: 1000 });
-ScrollReveal().reveal('.social', { delay: 1000 });
-ScrollReveal().reveal('.footer-links', { delay: 1000 });
+ScrollReveal().reveal('.noticias', { delay: 800 });
+ScrollReveal().reveal('.social', { delay: 800 });
+ScrollReveal().reveal('.footer-links', { delay: 800 });
 
