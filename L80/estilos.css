@@ -160,7 +160,7 @@ hr {
   /* Uso css grid para maquetar mejor las imagenes  */
   display: grid;
   /* Creo 4 columnas. Tambien valdría  grid-template-columns: 1fr 1fr 1fr 1fr; */
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   /* Espaciado horizontal entre cada columna */
   gap: 20px;
   margin: 40px 0;
